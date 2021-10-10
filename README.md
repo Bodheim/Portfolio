@@ -1,15 +1,9 @@
-# 02 Advanced CSS: Portfolio
+# Advanced CSS: Portfolio
 
 ## My Task
 
-Build a portfolio page, which you can add to as the course progresses.
+Built a portfolio page, which I can add to as my experience progresses.
 
-An effective portfolio highlights your strongest work as well as the thought processes behind it.
+This portfolio uses the basics of html and css and no outside repositories, downloads or APIs were used in this. So this profile is a bare basics profile page.
 
-Set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search.
-
-If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
-
-The following picture shows the web application's appearance and functionality:
-
-![portfolio demo](./assets/images/WebpageClip.pgn)
+To see my newer updated page including a more inclusive experience, check out my React based portfolio here: https://github.com/Bodheim/ReactPortfolio
