@@ -3,40 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Juniper Peasley</title>
+    <title>Abby Castelow</title>
   </head>
 
+  <header>
+    <h1>Abby Castelow</h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="#aboutme">About Me</a>
+        </li>
+        <li>
+          <a href="#work">Work</a>
+        </li>
+        <li>
+          <a href="#contacts">Contact Me</a>
+        </li>
+        <li>
+          <a href="#resume">Resume</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
   <body>
-    <header>
-      <h1>Juni<span class="per">per</span>Peasley</h1>
-      <h4>Previously Abby Castelow</h4>
-      <nav>
-        <ul>
-          <li>
-            <a href="#aboutme">About Me</a>
-          </li>
-          <li>
-            <a href="#work">Work</a>
-          </li>
-          <li>
-            <a href="#contacts">Contact Me</a>
-          </li>
-          <li>
-            <a href="#resume">Resume</a>
-          </li>
-          <li>
-            <a href="#latest">Latest on me</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
+ 
     <!--<figure id="hero"></figure>  Put your updated picture here-->
-
-    <article>
-      <section id="aboutme">
-        <h2>About Me</h2>
-        <figure>
+    <main>
+      <section class="full" id="aboutme">
+        <div class="title"><h2>About Me</h2></div>
+        <div class="part">
           <img src="./assets/images/aboutme.jpg"/>
           <figcaption>
             I started a class at Denver University for coding because 
@@ -49,22 +45,70 @@
             doing anything from hiking to sketching, loving my dog and 
             more recently working on programing languages.
           </figcaption>
-        </figure>
+        </div>
       </section>
 
-      <section >
-        <h2>Work</h2>
-        <article id="work">
-          <figure>
-            <h5>Test Button</h5>
-            <!--<img src="./assets/images/work.jpg"></img>-->   
-          </figure>
-        </article>
+      <section class="full" id="work">
+        <div class="title"><h2>Work</h2></div>
+        <div class="part-work">
+          <div class="card-container">
+            <div class="card">
+              <div class="card-image">
+                <a
+                href="https://nickwojt.github.io/business-day-planner/"
+                target="_blank"
+                >
+                  <figure class="image">
+                    <img src="./assets/images/venu.png" alt="Venu">
+                  </figure>
+                </a>
+              </div>
+              <div class="card-content">
+                <h3>Venu-Concert Finder</h3>
+                <p class="card-text">
+                  <a href="https://github.com/nickwojt/venu" target="_blank">Github</a>
+                  <br />
+                  <a href="https://nickwojt.github.io/venu/" target="_blank">Application</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-image">
+                <a
+                href="https://nickwojt.github.io/business-day-planner/"
+                target="_blank"
+                >
+                  <figure class="image">
+                    <img src="./assets/images/venu.png" alt="Venu">
+                  </figure>
+                </a>
+              </div>
+              <div class="card-content">
+                <h3>Business Day Planner</h3>
+                <p class="card-text">
+                  <a
+                    href="https://github.com/nickwojt/business-day-planner"
+                    target="_blank"
+                    >Github</a
+                  >
+                  <br />
+                  <a
+                    href="https://nickwojt.github.io/business-day-planner/"
+                    target="_blank"
+                    >Application</a
+                  >
+                </p>
+              </div>
+            </div> 
+          </div> 
+        </div>
+        
       </section>
 
-      <section id="contacts">
-        <h2>Contacts</h2>
-        <figure>
+      <section class="full" id="contacts">
+        <div class="title"><h2>Contact Me</h2></div>
+        <div class="part">
           <img src="./assets/images/contact.jpg"/>
           <figcaption>
             <ul>
@@ -74,40 +118,65 @@
               <li><strong>Github:</strong> 
                 <a href="https://github.com/Bodheim" 
                 target="no_blank">Bodheim</a></li>
+                <li>
+                  <a href="https://www.linkedin.com/in/abby-castelow/" 
+                  target="no_blank">LinkedIn</a></li>
             </ul>
           </figcaption>
-          
-        </figure>
+        </div>
       </section>
 
-      <section id="resume">
-        <h2>Resume</h2>
-        <figure>
-          <img src="./assets/images/resume.jpg"/>
+      <section class="full" id="resume">
+        <div class="title"><h2>Resume</h2></div>
+        <div class="part">
           <figcaption>
-            coming soon
+            <div>
+              <a
+              href="./assets/images/ACastelowResume.docx.pdf"
+              className="resumeBtn"
+              >
+              Click here to see my resume!
+              </a>
+            </div>
+            <br />
+            <div>
+              <p>Some of my skills:</p>
+                <div>
+                  <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>JQuery</li>
+                  <li>Bootstrap</li>
+                  <li>Bulma</li>
+                  <li>MongoDB</li>
+                  <li>React</li>
+                  <li>Redux</li>
+                  <li>Regex</li>
+                  </ul>
+                </div>
+            </div>
           </figcaption>
-        </figure>
+        </div>
       </section>
 
-    </article>
-
-    <aside>
-      <figure id="latest">
-          <h3>What am I up to?</h3>
-          <img src="assets/images/latest.jpg"/>
-          <figcaption>
-            So far I'm working on getting this asside to be initially 
-            hidden and then show when "Latest on me" is selected. 
-            I'm also working on personalizing my site more. 
-            There will be a updates on here regularly on what projects
-            I'm working on here. 
-          </figcaption>
-      </figure>
-    </aside>
-
-    <footer>
-      <h5>Made with L❤️️VE by Me</h5>
-    <footer>
+      <!-- <aside>
+        <figure id="latest">
+            <h3>What am I up to?</h3>
+            <img src="assets/images/latest.jpg"/>
+            <figcaption>
+              So far I'm working on getting this asside to be initially 
+              hidden and then show when "Latest on me" is selected. 
+              I'm also working on personalizing my site more. 
+              There will be a updates on here regularly on what projects
+              I'm working on here. 
+            </figcaption>
+        </figure>
+      </aside> -->
+    </main>
   </body>
+
+  <footer>
+    <h5>Made with L❤️️VE by Me</h5>
+  <footer>
 </html>
