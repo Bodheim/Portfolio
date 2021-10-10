@@ -91,7 +91,7 @@ section {
 
 .title {
   display: flex;
-  flex: 1 1 15%;
+  flex: 1 1 10%;
   width: 30%;
   justify-content: center;
   align-items: center;
@@ -133,7 +133,6 @@ section {
 
 .card-container {
   display: flex;
-  width: 60%;
   height: 100%;
   align-items: center;
 }
@@ -153,6 +152,7 @@ section {
 .card-image img {
   width: 100%;
 }
+
 .card-content {
   padding: 5px 16px;
 }
